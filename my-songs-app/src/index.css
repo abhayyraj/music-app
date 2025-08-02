@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+body {
+    margin: 0;
+    height: 1000vh;
+}
+
+a, button{
+    cursor: pointer;
+}
+
+.search-input:focus{
+    outline-width: 0px;
+    border-bottom: 1px solid white;
+}
+
+.andada-pro-semibold {
+  font-family: "Andada Pro", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
